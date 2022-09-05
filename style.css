@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+    }
+    body{
+    background: #0c924f;
+        }
+    .product-card{
+    width: 400px;
+    background: #ecedef;
+    padding: 40px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-style: double;
+    border-color: pink;
+    margin:100px;
+    }
+    .product-card h1{
+    font-size: 22px;
+    margin-bottom: 4px;
+    }
+    .product-card p{
+    font-size: 13px;
+    color: rgb(187, 187, 187);
+    }
+    .product-pic{
+    background-image: url("Jeans.jpg");
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.product-price{
+color: #2adef1;
+font-size: 26px;
+margin:30px;
+text-align: center;
+}
+.product-button{
+margin-top: 50px;
+margin-left: 90px;
+color: #df7eba;
+text-decoration: none;
+border: 2px solid;
+padding: 8px 24px;
+border-radius: 20px;
+}
+.product-button:hover{
+background: rgb(192, 255, 239);
+font-weight: bold;
+}
